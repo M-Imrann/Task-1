@@ -38,7 +38,7 @@ jobs:
           python-version: 3.13  
 
       - name: Run Unit Test
-        run: python -m unittest discover -s tests -t .
+        run: python -m unittest discover tests
   
         env: 
           DEFAULT_BRANCH: main
